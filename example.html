@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		canvas {
+		
+		}
+		output {
+			font-family: "Verdana";
+			font-size: 200%;
+		}
+		h1 {
+			font-family: "华文细黑";
+		}
+		#container {
+			text-align: center;
+		}
+	</style>
+	<script src="SimClock.js"></script>
+</head>
+<body onload="main()">
+	<div id="container">
+	<canvas id="cvs" width="400" height="400">您的浏览器不支持HTML5，请换用Chrome/Firefox浏览器！</canvas>
+	<br><h1>北京时间</h1>
+	<br><output id="hr"></output>时
+	<output id="min"></output>分
+	<output id="sec"></output>秒
+	</div>
+</body>
+</html>
